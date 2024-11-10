@@ -16,7 +16,7 @@ public class Array01
 		a[0] = 65;
 		a[1] = 99;
 		a[2] = 5;
-		a[3] = 10;
+		a[3] = 10; //
 		a[4] = 6;
 		
 		System.out.println(a[3]); // 10
