@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-03T12:54:19 IST" name="Default suite" finished-at="2024-11-03T12:54:47 IST" duration-ms="28084">
+    <groups>
+    </groups>
+    <test started-at="2024-11-03T12:54:19 IST" name="Default test" finished-at="2024-11-03T12:54:47 IST" duration-ms="28084">
+      <class name="facebook.tests.Login_test">
+        <test-method signature="logintest()[pri:0, instance:facebook.tests.Login_test@5b03b9fe]" started-at="2024-11-03T12:54:19 IST" name="logintest" finished-at="2024-11-03T12:54:38 IST" duration-ms="18696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="takesScreenshot(org.testng.ITestResult)[pri:0, instance:facebook.tests.Login_test@5b03b9fe]" started-at="2024-11-03T12:54:38 IST" name="takesScreenshot" finished-at="2024-11-03T12:54:47 IST" duration-ms="9226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=Login_test.logintest()[pri:0, instance:facebook.tests.Login_test@5b03b9fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesScreenshot -->
+        <test-method is-config="true" signature="closeLoginPage()[pri:0, instance:facebook.tests.Login_test@5b03b9fe]" started-at="2024-11-03T12:54:47 IST" name="closeLoginPage" finished-at="2024-11-03T12:54:47 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLoginPage -->
+      </class> <!-- facebook.tests.Login_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
